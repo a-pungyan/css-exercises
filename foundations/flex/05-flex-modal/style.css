@@ -35,6 +35,15 @@ body {
   justify-content: center;
 }
 
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px 20px 20px;
+}
+
+.center-text-and-elements {
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
