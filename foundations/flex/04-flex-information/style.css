@@ -6,7 +6,6 @@ img {
   width: auto;
   height: 100px;
   padding: 0 0 10px ;
-  border: 2px solid black;
 }
 
 .header {
@@ -24,13 +23,13 @@ img {
 .info-box {
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid red;
 }
 
 #barberry, #chili, #pepper, #saffron {
+  display: flex;
+  flex-wrap: wrap;
   width: 200px;
   justify-content: center;
-  border: 2px solid lightblue;
 }
 
 .text {
