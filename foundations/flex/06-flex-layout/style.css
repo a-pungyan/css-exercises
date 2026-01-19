@@ -33,4 +33,37 @@ input {
   width: 400px;
 }
 
-/* links etc */
+/* LINKS */
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 1em;
+  color: rgb(115, 115, 115);
+}
+
+/* HEADER AND FOOTER */
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 10%;
+  position: sticky; top: 0; right: 1vh;
+}
+
+.left-links, .right-links {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 10%;
+  position: absolute; bottom: -1em;
+  background-color: #eeeeee;
+}
