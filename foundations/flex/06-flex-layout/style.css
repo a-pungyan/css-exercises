@@ -11,11 +11,19 @@ img {
   width: 600px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 0.5em 0.8em;
+  margin-top: 4.8%;
 }
 
 input {
@@ -24,3 +32,5 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* links etc */
